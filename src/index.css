@@ -1,0 +1,349 @@
+@import "tailwindcss";
+
+@theme {
+  --font-title: "Amatic SC", cursive;
+  --font-body: "Spectral", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: var(--font-body);
+  color: #000;
+  background: #fff;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+/* A4 */
+.page {
+  width: 210mm;
+  min-height: 297mm;
+  max-height: 297mm;
+  padding: 12mm 15mm 10mm 15mm;
+  margin: 0 auto;
+  background: #fff;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen {
+  body {
+    background: #e5e5e5;
+  }
+
+  .page {
+    margin: 20px auto;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.15);
+  }
+}
+
+@media print {
+  body {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+  }
+
+  .page {
+    margin: 0;
+    padding: 12mm 15mm 10mm 15mm;
+    box-shadow: none;
+    page-break-after: always;
+    page-break-inside: avoid;
+  }
+
+  .page:last-child {
+    page-break-after: auto;
+  }
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+.font-title {
+  font-family: var(--font-title);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+.menu-item-box {
+  border: 1px solid #000;
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  break-inside: avoid;
+}
+
+.menu-item-box .item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.menu-item-box .item-name {
+  font-family: var(--font-title);
+  font-weight: 700;
+  text-decoration: underline;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  line-height: 1.2;
+}
+
+.menu-item-box .item-price {
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 16px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.menu-item-box .item-description {
+  font-family: var(--font-body);
+  font-size: 11px;
+  line-height: 1.4;
+  margin-top: 2px;
+}
+
+.menu-item-box .item-description p {
+  margin: 0;
+}
+
+.menu-item-box .item-description strong {
+  font-weight: 700;
+}
+
+.menu-item-box .item-allergens {
+  font-family: var(--font-body);
+  font-size: 11px;
+  color: #333;
+}
+
+.menu-item-box .item-addon {
+  font-family: var(--font-body);
+  font-size: 11px;
+  margin-top: 4px;
+}
+
+.menu-item-box .item-addon strong {
+  font-weight: 700;
+}
+
+.extra-item {
+  margin-bottom: 14px;
+}
+
+.extra-item .extra-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.extra-item .extra-name {
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+}
+
+.extra-item .extra-price {
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 16px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.extra-item .extra-description {
+  font-family: var(--font-body);
+  font-size: 11px;
+  color: #333;
+  line-height: 1.3;
+}
+
+.section-title {
+  font-family: var(--font-title);
+  font-weight: 700;
+  text-decoration: underline;
+  font-size: 22px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.price-header {
+  font-family: var(--font-title);
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.menu-header {
+  display: grid;
+  grid-template-columns: 110px 1fr 110px;
+  align-items: center;
+  margin-bottom: 24px;
+  padding-bottom: 8px;
+}
+
+.menu-header .logo {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  justify-self: start;
+}
+
+.menu-header .restaurant-name {
+  font-family: var(--font-title);
+  font-size: 28px;
+  font-weight: 700;
+  text-decoration: underline;
+  letter-spacing: 0.04em;
+  text-align: center;
+  padding: 0 12px;
+}
+
+.menu-header .wifi-info {
+  text-align: center;
+  flex-shrink: 0;
+  justify-self: end;
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.menu-header .wifi-icon {
+  width: 28px;
+  height: 28px;
+  margin: 0 auto 4px auto;
+  display: block;
+}
+
+.intro-text {
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.intro-welcome {
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 0.04em;
+}
+
+.intro-closing {
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 20px;
+  letter-spacing: 0.04em;
+}
+
+.intro-divider {
+  border: none;
+  border-top: 1px solid #000;
+  margin: 28px 40px;
+}
+
+.allergen-footer {
+  font-family: var(--font-body);
+  font-size: 11px;
+  line-height: 1.6;
+  margin-top: auto;
+  padding-top: 20px;
+  padding-bottom: 5mm;
+}
+
+.staff-section-title {
+  font-family: var(--font-title);
+  font-weight: 700;
+  text-decoration: underline;
+  font-size: 22px;
+  letter-spacing: 0.04em;
+  margin-bottom: 6px;
+}
+
+.staff-note {
+  font-family: var(--font-body);
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 14px;
+}
+
+.staff-item-box {
+  border: 1px solid #000;
+  padding: 10px 12px;
+  margin-bottom: 14px;
+  break-inside: avoid;
+}
+
+.staff-item-box .item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.staff-item-box .item-name {
+  font-family: var(--font-title);
+  font-weight: 700;
+  text-decoration: underline;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+}
+
+.staff-item-box .item-price {
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 16px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.staff-item-box .item-description {
+  font-family: var(--font-body);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.item-description p {
+  margin: 0;
+}
+
+.vegan-note-text {
+  font-family: var(--font-body);
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 14px;
+}
+
+.vegan-note-text p {
+  margin: 0;
+}

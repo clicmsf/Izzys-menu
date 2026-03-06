@@ -1,0 +1,726 @@
+{
+    "labels": {
+        "priceHeader": {
+            "en": "Eur | bgn",
+            "bg": "Eur | bgn"
+        },
+        "serviceNote": {
+            "en": "Prices in EUR and BGN, service not included",
+            "bg": "Цените са в евро и лева без включено обслужване"
+        },
+        "allergenPrefix": {
+            "en": "Allergens",
+            "bg": "Алергени"
+        }
+    },
+    "introduction": {
+        "en": "**Welcome to Izzy's Coffee and Brunch**\n\nRelax and make yourself comfortable. Here At Izzy's we are proud to offer a range of traditional Bulgarian and international breakfast dishes, reflecting the diversity of our team. We believe in using local, fresh and traditional ingredients, prepared with care to showcase the produce of Bulgaria.\n\n**Enjoy your stay**",
+        "bg": "**Добре дошли в Izzy's Coffee and Brunch**\n\nНастанете се и се отпуснете. Тук в Izzy's сме горди да предложим гама от традиционни български и международни ястия за закуска, отразяващи разнообразието на нашия екип. Ние вярваме в използването на местни, свежи и традиционни продукти, за да покажем богатството на българските вкусове.\n\n**Добър апетит!**"
+    },
+    "veganNote": {
+        "en": "**Looking for vegan options?** We're happy to make substitutions for your needs. Our Porridge and Berry Bowl are available with plant based milks and maple syrup instead of honey. Why not try our avocado toast with Lutenitsa (Bulgarian red pepper chutney) on your toast in place of butter?",
+        "bg": "**Търсите веган опции?** С удоволствие ще направим промени, за да отговорим на вашите нужди. Нашата овесена каша и плодова купа се предлагат с ядкови млека и кленов сироп вместо мед. Защо не опитате нашия авокадо тост с лютеница вместо масло?"
+    },
+    "sections": [
+        {
+            "id": "breakfast",
+            "label": {
+                "en": "Breakfast",
+                "bg": "Закуска"
+            },
+            "items": [
+                {
+                    "id": "eggs_on_toast",
+                    "name": {
+                        "en": "Eggs on Toast",
+                        "bg": "Яйца на тост"
+                    },
+                    "weight": "250g",
+                    "priceEur": 6.00,
+                    "description": {
+                        "en": "Two **poached / fried / scrambled** eggs on a slice of toasted sourdough bread.",
+                        "bg": "2 яйца **поширани / на очи / варени / бъркани** на филийка от квасен хляб и свежа салатка."
+                    },
+                    "allergenIds": [
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "id": "avocado_toast",
+                    "name": {
+                        "en": "Avocado Toast",
+                        "bg": "Авокадо тост"
+                    },
+                    "weight": "300g",
+                    "priceEur": 7.00,
+                    "description": {
+                        "en": "Halved avocado, **sliced / smashed** on toasted sourdough.",
+                        "bg": "Филийка от квасен хляб с **нарязано / намачкано** авокадо и лимонов сок и свежа салатка."
+                    },
+                    "allergenIds": [
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "id": "eggs_panagurski",
+                    "name": {
+                        "en": "Eggs Panagurski",
+                        "bg": "Яйца панагюрски"
+                    },
+                    "weight": "300g",
+                    "priceEur": 7.50,
+                    "description": {
+                        "en": "Traditional Bulgarian breakfast with 2 poached eggs in a yoghurt, garlic and herb sauce. Topped with a sirene cheese and a butter paprika sauce. Served with toasted sourdough bread.",
+                        "bg": "Поширани яйца върху сос от кисело мляко с чесън и билки, заляти с масло с паприка и натрошено сирене. Сервирано с препечени филийки."
+                    },
+                    "allergenIds": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "addons": [
+                        {
+                            "name": {
+                                "en": "+ chopped bacon",
+                                "bg": "+ нарязан бекон"
+                            },
+                            "priceEur": 2.50
+                        }
+                    ]
+                },
+                {
+                    "id": "berry_bowl",
+                    "name": {
+                        "en": "Berry Bowl",
+                        "bg": "Бери боул"
+                    },
+                    "weight": "350g",
+                    "priceEur": 7.00,
+                    "description": {
+                        "en": "A blend of frozen fruits, berries, flax seed and oat milk. Topped with granola and fresh fruit and honey / maple syrup.",
+                        "bg": "Блендирани замразени горски плодове, ленено семе и овесено мляко. Сервирано с гранола, пресни плодове и мед / кленов сироп."
+                    },
+                    "allergenIds": [
+                        3,
+                        5
+                    ]
+                },
+                {
+                    "id": "porridge",
+                    "name": {
+                        "en": "Porridge",
+                        "bg": "Овесена каша"
+                    },
+                    "weight": "425g",
+                    "priceEur": 7.00,
+                    "description": {
+                        "en": "Oatmeal cooked in dairy / plant (+1 EUR) milk topped with fresh fruit and honey / maple syrup.",
+                        "bg": "Овесени ядки, приготвени в краве / ядково (+1 EUR) мляко гарнирани с пресни плодове и мед / кленов сироп."
+                    },
+                    "allergenIds": [
+                        3
+                    ]
+                },
+                {
+                    "id": "granola_bowl",
+                    "name": {
+                        "en": "Granola Bowl",
+                        "bg": "Купа гранола"
+                    },
+                    "weight": "380g",
+                    "priceEur": 5.50,
+                    "description": {
+                        "en": "Yoghurt, granola and fresh fruits and honey / maple syrup.",
+                        "bg": "Кисело мляко, гранола и пресни плодове поляти с мед / кленов сироп."
+                    },
+                    "allergenIds": [
+                        3
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "extras",
+            "label": {
+                "en": "Extras",
+                "bg": "Добавки"
+            },
+            "items": [
+                {
+                    "id": "extra_egg",
+                    "name": {
+                        "en": "Egg",
+                        "bg": "Яйце"
+                    },
+                    "priceEur": 1.60
+                },
+                {
+                    "id": "extra_avocado",
+                    "name": {
+                        "en": "Avocado",
+                        "bg": "Авокадо"
+                    },
+                    "priceEur": 3.60
+                },
+                {
+                    "id": "extra_bacon",
+                    "name": {
+                        "en": "Bacon",
+                        "bg": "Бекон"
+                    },
+                    "weight": "50g",
+                    "priceEur": 2.00
+                },
+                {
+                    "id": "extra_smoked_salmon",
+                    "name": {
+                        "en": "Smoked Salmon",
+                        "bg": "Пушена сьомга"
+                    },
+                    "weight": "45g",
+                    "priceEur": 3.50
+                },
+                {
+                    "id": "extra_cooked_ham",
+                    "name": {
+                        "en": "Cooked Ham",
+                        "bg": "Шунка"
+                    },
+                    "weight": "65g",
+                    "priceEur": 2.20
+                },
+                {
+                    "id": "extra_hollandaise",
+                    "name": {
+                        "en": "Hollandaise",
+                        "bg": "Холандез сос"
+                    },
+                    "weight": "30g",
+                    "priceEur": 3.00
+                },
+                {
+                    "id": "extra_toast",
+                    "name": {
+                        "en": "Toast",
+                        "bg": "Филийка от квасен хляб"
+                    },
+                    "priceEur": 1.80,
+                    "description": {
+                        "en": "Buttered / unbuttered / lutenitsa",
+                        "bg": "С масло / без масло / с лютеница"
+                    }
+                },
+                {
+                    "id": "extra_elena_but",
+                    "name": {
+                        "en": "Elena But",
+                        "bg": "Еленски бут"
+                    },
+                    "weight": "25g",
+                    "priceEur": 2.50,
+                    "description": {
+                        "en": "Bulgarian Cured Ham",
+                        "bg": "Български сушен бут"
+                    }
+                },
+                {
+                    "id": "extra_lukanka",
+                    "name": {
+                        "en": "Lukanka",
+                        "bg": "Луканка"
+                    },
+                    "weight": "30g",
+                    "priceEur": 2.20,
+                    "description": {
+                        "en": "Bulgarian Salami",
+                        "bg": "Българска луканка"
+                    }
+                },
+                {
+                    "id": "extra_jam",
+                    "name": {
+                        "en": "Jam",
+                        "bg": "Конфитюр"
+                    },
+                    "weight": "50g",
+                    "priceEur": 1.00
+                },
+                {
+                    "id": "extra_sirene",
+                    "name": {
+                        "en": "Sirene",
+                        "bg": "Сирене"
+                    },
+                    "weight": "30g",
+                    "priceEur": 1.50,
+                    "description": {
+                        "en": "Bulgarian White Cheese",
+                        "bg": "Бяло сирене"
+                    }
+                },
+                {
+                    "id": "extra_spinach",
+                    "name": {
+                        "en": "Spinach",
+                        "bg": "Спанак"
+                    },
+                    "weight": "30g",
+                    "priceEur": 1.50,
+                    "description": {
+                        "en": "Sautéed with butter",
+                        "bg": "Сотиран с масло"
+                    }
+                },
+                {
+                    "id": "extra_salad",
+                    "name": {
+                        "en": "Salad",
+                        "bg": "Салата"
+                    },
+                    "weight": "30g",
+                    "priceEur": 1.60
+                }
+            ]
+        },
+        {
+            "id": "staff_favourites",
+            "label": {
+                "en": "Staff Favourites",
+                "bg": "Любимите на персонала"
+            },
+            "buildYourOwnNote": {
+                "en": "**Build Your Own:** Combine any of the items from our extras menu and we'll do our best to fit it all together. See some of our favourites below for inspiration!",
+                "bg": "**Сглоби своята закуска:** Изберете любими добавки от менюто ни и ние с удоволствие ще ги съчетаем. Разгледайте любимите комбинации на екипа ни по-долу!"
+            },
+            "items": [
+                {
+                    "id": "davids_breakfast",
+                    "name": {
+                        "en": "David's Breakfast",
+                        "bg": "Закуска на Дейвид"
+                    },
+                    "weight": "350g",
+                    "priceEur": 9.50,
+                    "description": {
+                        "en": "Two fried eggs, two slices of bacon on toasted sourdough and a side salad.",
+                        "bg": "Две пържени яйца, слайса бекон върху препечен тост със свежа салатка."
+                    },
+                    "allergenIds": [
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "id": "lilis_breakfast",
+                    "name": {
+                        "en": "Lili's Breakfast",
+                        "bg": "Закуска на Лили"
+                    },
+                    "weight": "350g",
+                    "priceEur": 6.50,
+                    "description": {
+                        "en": "A berry bowl without granola, topped with more seasonal fruits and maple syrup.",
+                        "bg": "Плодова купа с овесено мляко и кленов сироп, без гранола, но с допълнително плодове."
+                    },
+                    "allergenIds": [
+                        3
+                    ],
+                    "tags": [
+                        "vegan",
+                        "gluten-free"
+                    ]
+                },
+                {
+                    "id": "martins_breakfast",
+                    "name": {
+                        "en": "Martin's Breakfast",
+                        "bg": "Закуска на Мартин"
+                    },
+                    "weight": "350g",
+                    "priceEur": 10.50,
+                    "description": {
+                        "en": "Two poached eggs with bacon, smoked salmon on toast and a side salad.",
+                        "bg": "Две поширани яйца с бекон и пушена сьомга върху тост и гарнитура от свежа салатка."
+                    },
+                    "allergenIds": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "id": "harinis_breakfast",
+                    "name": {
+                        "en": "Harini's Breakfast",
+                        "bg": "Закуска на Харини"
+                    },
+                    "weight": "375g",
+                    "priceEur": 8.00,
+                    "description": {
+                        "en": "BLT sandwich with spicy mayo and a fried egg.",
+                        "bg": "BLT сандвич с пикантна майонеза и пържено яйце."
+                    },
+                    "allergenIds": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "id": "filips_breakfast",
+                    "name": {
+                        "en": "Filip's Breakfast",
+                        "bg": "Закуска на Филип"
+                    },
+                    "weight": "420g",
+                    "priceEur": 9.00,
+                    "description": {
+                        "en": "Avocado toast with a poached egg and Hollandaise sauce and a side salad.",
+                        "bg": "Авокадо тост с поширано яйце, сос Холандез и свежа салатка."
+                    },
+                    "allergenIds": [
+                        1,
+                        2,
+                        3
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "brunch",
+            "label": {
+                "en": "Brunch",
+                "bg": "Брънч"
+            },
+            "items": [
+                {
+                    "id": "eggs_benedict",
+                    "name": {
+                        "en": "Eggs Benedict",
+                        "bg": "Яйца бенедикт"
+                    },
+                    "weight": "300g",
+                    "priceEur": 10.00,
+                    "description": {
+                        "en": "2 poached eggs with Elena But, cured pork ham, on toasted sourdough topped with Hollandaise sauce and a side salad.",
+                        "bg": "Поширани яйца, хрупкав квасен хляб, Еленски бут, домашен сос Холандез, див лук и свежа салатка."
+                    },
+                    "allergenIds": [
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "id": "eggs_royale",
+                    "name": {
+                        "en": "Eggs Royale",
+                        "bg": "Яйца роял"
+                    },
+                    "weight": "300g",
+                    "priceEur": 11.00,
+                    "description": {
+                        "en": "2 poached eggs with smoked salmon on toasted sourdough topped with Hollandaise sauce and a side salad.",
+                        "bg": "Поширани яйца, хрупкав квасен хляб, пушена сьомга, домашен сос Холандез, див лук и свежа салатка."
+                    },
+                    "allergenIds": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "id": "eggs_florentine",
+                    "name": {
+                        "en": "Eggs Florentine",
+                        "bg": "Яйца флорентин"
+                    },
+                    "weight": "300g",
+                    "priceEur": 9.00,
+                    "description": {
+                        "en": "2 poached eggs with sautéed spinach on toasted sourdough topped with Hollandaise sauce and a side salad.",
+                        "bg": "Поширани яйца, хрупкав квасен хляб, домашен сос Холандез, сотиран спанак, див лук и свежа салатка."
+                    },
+                    "allergenIds": [
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "id": "shakshuka",
+                    "name": {
+                        "en": "Shakshuka",
+                        "bg": "Шакшука"
+                    },
+                    "weight": "330g",
+                    "priceEur": 9.00,
+                    "description": {
+                        "en": "2 poached eggs in a roasted pepper and tomato sauce and Bulgarian white cheese served with toasted sourdough bread.",
+                        "bg": "Поширани яйца в сос от червени чушки, домати и сирене, сервирани с препечено хлебче."
+                    },
+                    "allergenIds": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "addons": [
+                        {
+                            "name": {
+                                "en": "+ chopped bacon",
+                                "bg": "+ нарязан бекон"
+                            },
+                            "priceEur": 2.50
+                        }
+                    ]
+                },
+                {
+                    "id": "french_toast",
+                    "name": {
+                        "en": "American Style French Toast",
+                        "bg": "Френски тост"
+                    },
+                    "weight": "300g",
+                    "priceEur": 8.50,
+                    "description": {
+                        "en": "Brioche bread, dipped in a mixture of egg, milk, cinnamon, vanilla and maple syrup. Choose your toppings from **fresh fruit and maple / white cheese and jam / chocolate syrup and fruit**.",
+                        "bg": "Пържена филия от бриош натопена в смес от мляко, яйце, ванилия, кленов сироп и канела. Изберете гарнитура от **пресни плодове и кленов сироп / сирене и конфитюр / шоколадов сироп и плодове**."
+                    },
+                    "allergenIds": [
+                        1,
+                        2,
+                        3
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "sandwiches",
+            "label": {
+                "en": "Sandwiches",
+                "bg": "Сандвичи"
+            },
+            "items": [
+                {
+                    "id": "bulgarian_ham_cheese",
+                    "name": {
+                        "en": "Bulgarian Ham & Cheese",
+                        "bg": "Български хам и чийз"
+                    },
+                    "weight": "350g",
+                    "priceEur": 8.00,
+                    "description": {
+                        "en": "Elena But (Bulgarian cured ham), cheddar cheese, lettuce, tomato, Lutenitsa and mayo / spicy mayo (Bulgarian vegetable chutney).",
+                        "bg": "Елена Бут, чедър, маруля, домат, лютеница и майонеза / пикантна майонеза."
+                    },
+                    "allergenIds": [
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "id": "english_ploughmans",
+                    "name": {
+                        "en": "English Ploughman's",
+                        "bg": "Английски плауман"
+                    },
+                    "weight": "350g",
+                    "priceEur": 7.00,
+                    "description": {
+                        "en": "Ham, cheddar cheese, butter, Branston pickle, lettuce, tomato.",
+                        "bg": "Шунка, чедър, масло, зеленчукова туршия Бранстън, маруля, домат."
+                    },
+                    "allergenIds": [
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "id": "brie_fig_jam",
+                    "name": {
+                        "en": "Brie & Fig Jam",
+                        "bg": "Бри и смокиня"
+                    },
+                    "weight": "300g",
+                    "priceEur": 7.50,
+                    "description": {
+                        "en": "Brie, fig jam, baby leaf salad.",
+                        "bg": "Бри, конфитюр от смокиня, бейби салата."
+                    },
+                    "allergenIds": [
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "id": "the_blt",
+                    "name": {
+                        "en": "The BLT",
+                        "bg": "БЛТ"
+                    },
+                    "weight": "350g",
+                    "priceEur": 7.00,
+                    "description": {
+                        "en": "The classic bacon, lettuce, tomato sandwich with mayo / spicy mayo.",
+                        "bg": "Класически сандвич с бекон, маруля, домати и майонеза / пикантна майонеза."
+                    },
+                    "allergenIds": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "id": "salmon_avocado_cream_cheese",
+                    "name": {
+                        "en": "Salmon, Avocado & Cream Cheese",
+                        "bg": "Сьомга, авокадо и крема сирене с билки"
+                    },
+                    "weight": "400g",
+                    "priceEur": 8.50,
+                    "description": {
+                        "en": "Smoked salmon, with avocado, cream cheese, herbs and a dash of lemon juice.",
+                        "bg": "Пушена сьомга, авокадо, крема сирене с билки и лимонов сок."
+                    },
+                    "allergenIds": [
+                        2,
+                        3,
+                        4
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "snacks_pastries",
+            "label": {
+                "en": "Snacks & Pastries",
+                "bg": "Сладки печива"
+            },
+            "items": [
+                {
+                    "id": "croissant",
+                    "name": {
+                        "en": "Croissant",
+                        "bg": "Кроасан"
+                    },
+                    "weight": "60g",
+                    "priceEur": 1.80,
+                    "allergenIds": [
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "id": "pain_au_chocolat",
+                    "name": {
+                        "en": "Pain au Chocolat",
+                        "bg": "Кроасан с шоколад"
+                    },
+                    "weight": "70g",
+                    "priceEur": 2.50,
+                    "allergenIds": [
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "id": "chocolate_chip_cookie",
+                    "name": {
+                        "en": "Chocolate Chip Cookie",
+                        "bg": "Шоколадова бисквитка"
+                    },
+                    "weight": "75g",
+                    "priceEur": 3.00,
+                    "allergenIds": [
+                        2,
+                        3
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "sweets",
+            "label": {
+                "en": "Sweets",
+                "bg": "Десерти"
+            },
+            "items": [
+                {
+                    "id": "cheesecake",
+                    "name": {
+                        "en": "Cheesecake",
+                        "bg": "Чийзкейк"
+                    },
+                    "weight": "150g",
+                    "priceEur": 4.00,
+                    "description": {
+                        "en": "Cheesecake topped with fresh berries and raspberry syrup.",
+                        "bg": "Чийзкейк с горски плодове и малинов сироп."
+                    },
+                    "allergenIds": [
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "id": "apple_pie",
+                    "name": {
+                        "en": "Apple Pie & Ice Cream",
+                        "bg": "Ябълков пай със сладолед"
+                    },
+                    "weight": "150g",
+                    "priceEur": 4.50,
+                    "description": {
+                        "en": "Baked apple pie with caramel syrup and vanilla ice cream.",
+                        "bg": "Печен ябълков пай с ванилов сладолед и карамелен сироп."
+                    },
+                    "allergenIds": [
+                        2,
+                        3
+                    ]
+                }
+            ]
+        }
+    ],
+    "allergens": [
+        {
+            "id": 1,
+            "name": {
+                "en": "Eggs",
+                "bg": "Яйца"
+            }
+        },
+        {
+            "id": 2,
+            "name": {
+                "en": "Wheat (Gluten)",
+                "bg": "Пшеница (Глутен)"
+            }
+        },
+        {
+            "id": 3,
+            "name": {
+                "en": "Milk (Dairy)",
+                "bg": "Мляко (Млечни продукти)"
+            }
+        },
+        {
+            "id": 4,
+            "name": {
+                "en": "Fish",
+                "bg": "Риба"
+            }
+        },
+        {
+            "id": 5,
+            "name": {
+                "en": "Nuts / Seeds",
+                "bg": "Ядки / Семена"
+            }
+        }
+    ]
+}
